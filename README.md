@@ -17,13 +17,13 @@ As a ***Sales Person*** I would like to create a new project so I can upload a p
 | Name | string | not_null |
 | Note | text | |
 | Due_date | date | |
-| Customer_name | string |
+| Customer_name | string | not_null |
 
-Project has_many designs.
+Project ***has_many*** designs.
 
 ### Model: Project_designs
 
-Project_design belongs_to a Project
+Project_design ***belongs_to*** a Project
 
 | Attribute | Data_type | Conditions |
 | :--- | :--- | :--- |

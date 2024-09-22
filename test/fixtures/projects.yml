@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: "Alodia IndoJaya tshirt events"
+  note: "Customer would like to make sure the print to use puff inks and colours are accurate."
+  due_date: 2024-09-23
+  customer_name: "Alodia IndoJaya"
+
+two:
+  name: "Webering"
+  note: "Customer would like to have the TShirt ASAP if possible"
+  due_date: 2024-09-23
+  customer_name: "Webering" 
