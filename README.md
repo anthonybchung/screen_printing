@@ -1,24 +1,32 @@
-# README
+# Screen Printing Tracker.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Vision
 
-Things you may want to cover:
+Assist screen printers to track the progress of jobs.
 
-* Ruby version
+## Feature 1
 
-* System dependencies
+### Sales Preson: Create Job.
 
-* Configuration
+As a ***Sales Person*** I would like to create a new project so I can upload a proposed designs to the system.
 
-* Database creation
+#### Model: Project
 
-* Database initialization
+| Attributes | Data_type | Conditons | 
+| :--- | :--- | :--- |
+| Name | string | not_null |
+| Note | text | |
+| Due_date | date | |
+| Customer_name | string |
 
-* How to run the test suite
+Project has_many designs.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Model: Project_designs
 
-* Deployment instructions
+Project_design belongs_to a Project
 
-* ...
+| Attribute | Data_type | Conditions |
+| :--- | :--- | :--- |
+| Name | string | not_null |
+| Note | text | |
+| Project_id | number |
