@@ -30,3 +30,12 @@ Project_design ***belongs_to*** a Project
 | Name | string | not_null |
 | Note | text | |
 | Project_id | number |
+
+#### Controller: Projects
+
+CRUD.
+
+##### Projects#index
+
+- List all projects.
+- Filter projects according to the text input.
