@@ -39,3 +39,16 @@ CRUD.
 
 - List all projects.
 - Filter projects according to the text input.
+
+#### Projects#show
+
+- Show a project
+#### Projects#new
+
+- Response with Project object
+
+### Project#create
+
+- Strong Params
+- name and customer_name not null
+- name no duplication

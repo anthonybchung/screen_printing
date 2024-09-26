@@ -5,27 +5,32 @@ one:
   note: "Customer would like to make sure the print to use puff inks and colours are accurate."
   due_date: 2024-09-23
   customer_name: "Alodia IndoJaya"
+  id: 1
 
 two:
   name: "Webering"
   note: "Customer would like to have the TShirt ASAP if possible"
   due_date: 2024-09-23
   customer_name: "Webering" 
+  id: 2
 
 three:
   name: "North Maroubra"
   note: "Customer wants the shirt to be in waterbase"
   due_date: 2024-10-11
   customer_name: "Wellington"
+  id: 3
 
 four:
   name: "Aloha Hawaii"
   note: "Exporting to Hawaii"
   due_date: 2024-10-21
   customer_name: "Aloha Land"
+  id: 4
 
 five:
   name: "500 miles"
   note: "ship to island of java"
   due_date: 2024-01-04
   customer_name: "Alodia Indojaya"
+  id: 5
